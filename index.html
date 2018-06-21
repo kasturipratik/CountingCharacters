@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>String Counting</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+<div class="container jumbotron">
+    <form role="form" action="" method="post" onsubmit="return validate(this);">
+        <label>Create New Post (140 char):</label>
+        <textarea name="posttext" id="posttext" class="form-control" rows="2" placeholder= "Express yourself!" maxlength="140"></textarea>
+        <div id="textarea_feedback"></div>
+        <input type="submit" value="Submit" id="submit"/>
+        <input type="reset" value="Clear"/>
+    </form>
+</div>
+
+
+
+</body>
+</html>
